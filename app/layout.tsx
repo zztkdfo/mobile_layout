@@ -23,23 +23,23 @@ export default function RootLayout({
             <div className="absolute bottom-0 left-[calc(50%_-_440px)] top-0 flex h-screen w-[360px] flex-col items-center justify-center border-gray-500 border-solid border-x ">
               <div className="flex flex-col gap-2">
                 <div className="bg-primary text-white px-4 py-2 rounded">
-                  Primary Button
+                  Primary
                 </div>
 
                 <div className="bg-secondary-blue text-white px-4 py-2 rounded">
-                  Blue Button
+                  Secondary Blue
                 </div>
 
                 <div className="bg-secondary-light text-white px-4 py-2 rounded">
-                  Light Orange Button
+                  Secondary Light Orange
                 </div>
 
                 <div className="bg-secondary-yellow text-white px-4 py-2 rounded">
-                  Yellow Button
+                  Secondary Yellow
                 </div>
 
                 <div className="bg-secondary-red text-white px-4 py-2 rounded">
-                  Red Button
+                  Secondary Red
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function RootLayout({
 
           <main className=" relative flex flex-col border-gray-500 border-solid border-x h-fit min-h-dvh w-full min-w-[500px] max-w-[750px] items-center justify-center ">
             <article className="flex w-full flex-1 flex-col">
-              <div className="relative flex w-full flex-col bg-[#F7F7F7]">
+              <div className="relative flex w-full flex-col text-center pt-12 text-2xl font-bold">
                 {children}
               </div>
             </article>

@@ -1,3 +1,3 @@
 export default function RecommendPage() {
-  return <div>RecommendPage</div>;
+  return <div>Recommend Page</div>;
 }

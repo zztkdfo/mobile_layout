@@ -1,3 +1,3 @@
 export default function PlanPage() {
-  return <div>PlanPage</div>;
+  return <div>Plan Page</div>;
 }
