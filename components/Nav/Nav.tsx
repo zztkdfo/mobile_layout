@@ -10,22 +10,26 @@ const navItems = [
   {
     label: "홈",
     icon: BsHouse,
+    link: "/",
   },
   {
     label: "여행",
     icon: BsRocketTakeoff,
+    link: "/plan",
   },
   {
     label: "추천",
     icon: BsStar,
+    link: "/recommend",
   },
   {
     label: "마이페이지",
     icon: BsPersonCircle,
+    link: "/my",
   },
 ];
 
-export default function Navigation() {
+export default function Nav() {
   return (
     <nav className="sticky bottom-0 left-0 right-0 z-10 w-full">
       <ul className="border-gray-500 grid h-[64px] grid-cols-4 border border-solid bg-white pt-[6px]">
